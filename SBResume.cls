@@ -113,6 +113,7 @@
 \newcommand*{\homepage}[1]{\def\@homepage{#1}}
 \newcommand*{\github}[1]{\def\@github{#1}}
 \newcommand*{\linkedin}[1]{\def\@linkedin{#1}}
+\newcommand*{\site}[1]{\def\@site{#1}}
 
 % Define photo ID
 % Usage: \photo[circle|rectangle,edge|noedge,left|right]{<path-to-image>}
@@ -170,6 +171,8 @@
     \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\ \@linkedin}
     \lhcontactsep
     \href{https://github.com/\@github}{\faGitSquare\ \@github}
+    \lhcontactsep
+    \href{\@site}{\faGlobe\ \@site}
   }\\
   {\color{location}$\vcenter{\hbox{\rule{5.0cm}{0.2pt}}}$\ \lhlocstyle{\@location}}\\
   {\vspace{0.1pt}}
