@@ -170,7 +170,7 @@
     \lhcontactsep
     \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\ \@linkedin}
     \lhcontactsep
-    \href{https://github.com/\@github}{\faGitSquare\ \@github}
+    \href{https://github.com/\@github}{\faGithub\ \@github}
     \lhcontactsep
     \href{\@site}{\faGlobe\ \@site}
   }\\
