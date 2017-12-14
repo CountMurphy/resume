@@ -25,10 +25,10 @@
     \begin{wrapfigure}{r}{3cm}
     \insertheadshot
     \end{wrapfigure}
-    With 15 years of experience in the software engineering and
+    With 8 years of experience in the software engineering and
     computer security fields, I have successfully researched,
     designed, implemented, maintained and delivered many successful
-    projects in a wide variety of roles with a very broad spectrum of
+    projects in a wide variety of roles with a broad spectrum of
     subject matter.\\
     
     Security is a primary focus because it affords an opportunity to
@@ -39,10 +39,10 @@
     
     \textbf{Skills:}
     \begin{resumeitemize2}
-    \item{\textbf{General}: Security, R\&D, Reversing, Exploiting, Networking, Performance, Embedded}
-    \item{\textbf{Languages}: C, C++, Ruby, Python, Assembly, Shell scripting, Lisp, Java, \LaTeX}
-    \item{\textbf{Architectures}: X86, X86\_64, ARM, PIC, OpenRISC, Z80, ATmega }
-    \item{\textbf{Software}: Linux, Windows, GCC, Clang, GDB, Emacs, IDA, Autotools, CMake}
+    \item{\textbf{General}: Security, R\&D, Networking, Performance, Embedded}
+    \item{\textbf{Languages}: C\#, C, C++ (including QT5 and boost), SQL, JavaScript, Angular, PHP, Python, Shell scripting, Java, \LaTeX, NodeJS}
+    \item{\textbf{Architectures}: X86, X86\_64, ARM}
+    \item{\textbf{Software}: Linux, Windows, GCC, MariaDB, SQL Server, GDB, KiCad, Vim, Git, Azure, SVN, Mercurial, TFS}
     \end{resumeitemize2}
     
     %\textbf{Personal Interests:}
@@ -57,78 +57,52 @@
   \end{resumetext}
 
 
-\resumesection{Highlighted Projects}
+\resumesection{Highlighted GitHub Projects}
 
 \resumeentry
-    {2014-2015}
+    {C++/QT5}
     {
       \vspace{0.25cm}
       \begin{tikzpicture}%
-        \node[circle, inner sep=0.6cm, fill overzoom image=images/google.png] () {};%
+        \node[circle, inner sep=0.6cm](){};%, fill overzoom image=images/google.png] () {};%
       \end{tikzpicture}
     }
-    {Secure Embedded Operating System}
-    {Inverse Limit (for Google)}
+    {QTalarm}
+    {\href{http://github.com/countmurphy/qtalarm}{\textbf{github.com/countmurphy/qtalarm}}}
     {
 
-        As part of Google ATAP's \emph{Project Vault}, Inverse Limit's
-        small team of 4 designed and developed a complete computer
-        platform with a security focus. All components are open
-        source; the board schematics, OS, applications, drivers,
-        toolchain, emulator, and even the CPU (based on OpenRISC) have
-        been released to GitHub. Among other things, I was solely
-        responsible for implementing the real-time multitasking
-        operating system for the project.\\
-%        
-%        Earlier in the project I was responsible for creating the initial software that used a fake FAT filesystem as a means of socket communication between an external device and an Android device without need for a kernel driver.\\
-
-        Launch video (Google I/O 2015): \hfill \href{http://goo.gl/5mZrVR}{\textbf{http://goo.gl/5mZrVR}}\\
-        Source code: \hfill \href{http://goo.gl/0pbsk7}{\textbf{http://goo.gl/0pbsk7}}
+	A cross platform alarm clock written in QT5.  It is currently available on GitHub and Arch Linux's User Repository (AUR).  At time of writing it has about 70- 100 users.%        
     }
     
   \resumeentry
-      {2013}
+      {Spin}
       {
         \vspace{0.20cm}
         \begin{tikzpicture}%
-          \node[circle, inner sep=0.6cm, fill overzoom image=images/darpa.jpg] () {};%
+         \node[circle, inner sep=0.6cm](){};%, fill overzoom image=images/google.png] () {};%
         \end{tikzpicture}
       }
-      {X86 Hypervisor and CPU Instruction fuzzer}
-      {Inverse Limit (for DARPA)}
+      {Pipman GPS Watch}
+      {\href{https://github.com/CountMurphy/Pipman}{\textbf{github.com/CountMurphy/Pipman}}}
       {
-
-        The MAIM project (Micro-architecture Instruction Mining) was
-        one of three Cyber Fast Track proposals that DARPA accepted
-        from Inverse Limit. It consisted of an x86 instruction fuzzer
-        and a cross-platform hypervisor to execute the instructions
-        and compare their behavior on different implementations. The
-        project identified several undocumented differences between
-        Intel, AMD and VIA architectures.\\
-
-        Whitepaper: \hfill \href{http://goo.gl/Kwa3Rf}{\textbf{http://goo.gl/Kwa3Rf}}\\
+	A propeller based wrist watch that uses GPS for time syncing, a compass and various other sensors. A second, smaller version is currently being worked on. A full write up is available on my personal site (\href{https://random-hackery.net/post/pipman-gps-watch/}{\textbf{https://random-hackery.net/post/pipman-gps-watch/}}).
       }
       
   \resumeentry
-      {2010-2011}
+      {C++/QT5}
       {
         \vspace{0.15cm}
         \begin{tikzpicture}%
-          \node[inner sep=0.85cm,fill overzoom image=images/bpointsys.jpg] () {};%
+         \node[circle, inner sep=0.6cm](){};%, fill overzoom image=images/google.png] () {};%
         \end{tikzpicture}
       }
-      {Complete TCP/IP Stack for Attack Traffic}
-      {BreakingPoint Systems}
+      {Jerry-Rig}
+      {\href{https://github.com/CountMurphy/jerry-rig}{\textbf{github.com/CountMurphy/jerry-rig}}}
       {
 
-        I redesigned BreakingPoint's existing network security test
-        framework from a traffic simulator into a fully featured
-        TCP/IP stack that could test live applications while
-        transparently applying any number of advanced network evasion
-        techniques. At the same time, by integrating concurrency into
-        the new design and strategically replacing components with C
-        extensions, the performance was quadrupled.}
-
+	A replacement for Handbrake, a video converting application. It was created for a senior citizen as hand-break and ffmpeg were too complicated to use. It uses simple options to call out to ffmpeg. 
+      }
+Various other projects can be found on my website, \href{https://random-hackery.net}{\underline{random-hackery.net}}
 \newpage
       
 \resumesection{Work History}
@@ -242,13 +216,21 @@
 
 \newpage   
 \resumesection{Education}
-      \resumeentry{}
-      {}{California State University Chico}{2010}
+      \resumeentry
+      {2010}
+      {}{California State University Chico}{}
       {
 	 \begin{resumeitemize}
          \item{Majored in Computer Information Systems}
          \item{Treasurer for CSLUG (Chico State Linux User Group) from Sept 08- May 09}
 	 \end{resumeitemize}
       }
+\\
+\\
+\resumesection{Other}
+      \begin{resumeitemize}
+          \item{Speaker at AHA! (\href{http://takeonme.org}{\underline{takeonme.org}}).}
+          \item{DEF Con \MakeUppercase{\romannumeral 25}  Hack Fortress Champion}
+      \end{resumeitemize}
 \end{resume}
 \end{document}
