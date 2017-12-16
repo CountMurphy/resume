@@ -109,6 +109,7 @@
 \newcommand*{\phonenumber}[1]{\def\@phonenumber{#1}}
 \newcommand*{\emailaddr}[1]{\def\@emailaddr{#1}}
 \newcommand*{\pgp}[1]{\def\@pgp{#1}}
+\newcommand*{\pgpLink}[1]{\def\@pgpLink{#1}}
 
 % Optional social-media account info
 \newcommand*{\homepage}[1]{\def\@homepage{#1}}
@@ -176,7 +177,7 @@
     \href{\@site}{\faGlobe\ \@site}
     \\
     \lhcontactstyle
-    \faKey\ \@pgp
+    \faKey\ \href{\@pgpLink}{\@pgp}
   }\\
   {\color{location}$\vcenter{\hbox{\rule{5.0cm}{0.2pt}}}$\ \lhlocstyle{\@location}}\\
   {\vspace{0.1pt}}
